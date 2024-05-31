@@ -1,0 +1,3 @@
+[build-system]
+# Seems to work fine even with Cython>=3.0, despite requirements.txt pinning the version.
+requires = ["Cython>=0.29.14", "setuptools>=32.0.0"]
